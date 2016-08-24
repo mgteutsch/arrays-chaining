@@ -5,11 +5,11 @@
 (N/A for this exercise)
 
 ## Description
-Using one single line of JavaScript code, the following tasks will be completed using the array below listed array:
-1. Sort the numbers in descending order (10, 9, 8, 7, etc).
-2. Remove any integers greater than 19.
-3. Multiply each remaining number by 1.5 and then subtract 1.
-4. Output (either in the DOM or the console) the sum of all the resulting numbers.
+Using one single line of JavaScript code, the following tasks will be completed using the array below listed array: <br/>
+1. Sort the numbers in descending order (10, 9, 8, 7, etc). <br/>
+2. Remove any integers greater than 19. <br/>
+3. Multiply each remaining number by 1.5 and then subtract 1. <br/>
+4. Output (either in the DOM or the console) the sum of all the resulting numbers. <br/>
 
 Array to use:
 ```
