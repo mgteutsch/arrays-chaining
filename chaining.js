@@ -5,7 +5,7 @@ console.log("Before creating 1 line of code, let's break it down into steps:");
 var integers = [13, 25, 6, 3, 11, 2, 18, 7, 21, 1, 29, 20, 12, 8];
 
 console.log("Here is the initial integers array: ", integers);
-document.getElementById("startingpoint").innerHTML += "What the beginning array looks like:" + "<br/>" + integers + "<br/>"
+document.getElementById("startingpoint").innerHTML += "What the beginning array looks like:" + "<br/>" + integers + "<br/>";
 
 // 1. Integers in Descending Order:
 console.log("1. Descending Integers:");
@@ -47,7 +47,7 @@ document.getElementById("initialarrayoutput").innerHTML += "What the array shoul
 
 // FINALLY: One Line of Code
 console.log("---***--- Alright, now in ONE line of code ---***---");
-console.log("View code under the 'Sources' tab.")
+console.log("View code under the 'Sources' tab.");
 
 var integers = [13, 25, 6, 3, 11, 2, 18, 7, 21, 1, 29, 20, 12, 8];
 
@@ -55,4 +55,4 @@ console.log(integers.sort(function(first, second) {return first - second}).rever
 
 var newIntegers = integers.sort(function(first, second) {return first - second}).reverse().filter(function(x) {return x <= 19}).map(function(x) {return (x * 1.5) - 1});
 
-document.getElementById("finalarrayoutput").innerHTML += "New array in just one line of code:" + "<br/>" + newIntegers + "<br/><br/>" + "Here's the one line of code:" + "<br/>" + "integers.sort(function(first, second) {return first - second}).reverse().filter(function(x) {return x <= 19}).map(function(x) {return (x * 1.5) - 1})"
+document.getElementById("finalarrayoutput").innerHTML += "New array in just one line of code:" + "<br/>" + newIntegers + "<br/><br/>" + "Here's the one line of code:" + "<br/>" + "integers.sort(function(first, second) {return first - second}).reverse().filter(function(x) {return x <= 19}).map(function(x) {return (x * 1.5) - 1})";
